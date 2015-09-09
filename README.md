@@ -1,10 +1,13 @@
 # grunt-sequelize
 
-[![Build](https://travis-ci.org/bencevans/grunt-sequelize.svg?branch=master)](https://travis-ci.org/bencevans/grunt-sequelize)
-[![Coverage Status](https://coveralls.io/repos/bencevans/grunt-sequelize/badge.png?branch=master)](https://coveralls.io/r/bencevans/grunt-sequelize?branch=master)
+[![Build](https://travis-ci.org/sebalopez111/grunt-sequelize.svg?branch=master)](https://travis-ci.org/sebalopez111/grunt-sequelize)
+[![Coverage Status](https://coveralls.io/repos/sebalopez111/grunt-sequelize/badge.png?branch=master)](https://coveralls.io/r/sebalopez111/grunt-sequelize?branch=master)
 
-[![Dependency Status](https://david-dm.org/bencevans/grunt-sequelize.svg)](https://david-dm.org/bencevans/grunt-sequelize)
-[![devDependency Status](https://david-dm.org/bencevans/grunt-sequelize/dev-status.svg)](https://david-dm.org/bencevans/grunt-sequelize#info=devDependencies)
+[![Dependency Status](https://david-dm.org/sebalopez111/grunt-sequelize.svg)](https://david-dm.org/sebalopez111/grunt-sequelize)
+[![devDependency Status](https://david-dm.org/sebalopez111/grunt-sequelize/dev-status.svg)](https://david-dm.org/sebalopez111/grunt-sequelize#info=devDependencies)
+
+## Credits
+This is an quick, dirty attempt to fix an issue with grunt-sequelize created by Ben Evans (https://github.com/bencevans/grunt-sequelize/).  
 
 > Sequelize migrations from Grunt
 
@@ -20,7 +23,7 @@ npm install grunt-sequelize --save-dev
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-sequelize');
+grunt.loadNpmTasks('grunt-sequelize-migrations');
 ```
 
 ## The "sequelize" task
